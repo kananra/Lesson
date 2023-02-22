@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin-top: 30px;
+    display: flex;
+  }
+  
+  div.education-item {
+    width: 50%;
+  }
+  div.column{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  h5.tittle {
+    font-size: 50px;
+  }
+  
+  h5.logo::after {
+    content: url(../images/sep-line.png);
+    display: block;
+  }
+  
+  .education-item p {
+    font-size: 18px;
+    padding-top: 30px;
+  }
+  
+  div.education-area {
+    width: 50%;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid black;
+  }
+  div.education-area img {
+    width: 100px;
+  }
+  div.education-area p {
+    display: block;
+    text-align: center;
+  }
+  
+  div.dm:hover {
+    background-color: purple;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  
+  div.dn:hover {
+    background-color: yellow;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  
+  div.it:hover {
+    background-color: green;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  
+  div.pm:hover {
+    background-color: blue;
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  
+  div.title{
+      width: 50%;
+  }
+  
+  div.title p{
+      font-size: 18px;
+  }
+  
+  div.why-ca-item{
+      display: inline-block;
+  }
+  
+  div.column{
+       width: 50%;
+  }
+  
+  div.content{
+      display: inline-block;
+  }
+  
+  
+  div.content h6{
+      font-size: 21px;
+      font-weight: bolder;
+  }
+
+
+  @media screen and (max-width:992px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
