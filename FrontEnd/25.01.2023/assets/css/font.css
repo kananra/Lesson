@@ -1,0 +1,9 @@
+@font-face {
+  font-family: visby;
+  src: url(../fonts/Fontspring-DEMO-visbycf-regular.otf);
+}
+
+@font-face {
+    font-family: visby-bold;
+    src: url(../fonts/Fontspring-DEMO-visbycf-extrabold.otf);
+}

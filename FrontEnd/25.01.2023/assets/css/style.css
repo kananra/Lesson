@@ -1,0 +1,84 @@
+@import url(./font.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.programming {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 10px solid;
+}
+
+.programming > img {
+  width: 100px;
+}
+
+.programming > h2 {
+  font-family: visby sans-serif;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+}
+
+div.programming:hover {
+  background-color: blue;
+}
+
+div.why-ca {
+  margin-top: 20px;
+  position: relative;
+  width: 600px;
+  height: 500px;
+  border: 10px solid;
+}
+
+.why-ca .why {
+  font-family: visby sans-serif;
+  font-size: 40px;
+}
+
+.why-ca .ca {
+  font-family: visby-bold sans-serif;
+  font-size: 50px;
+}
+
+h2.ca::after {
+  content: url(../images/sep-line.png);
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+
+.why-ca p {
+  font-family: visby sans-serif;
+  font-size: 16px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+div.project {
+  margin-top: 300px;
+  position: relative;
+  width: 700px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+}
+
+div.project-image {
+  width: 300px;
+  height: 300px;
+}
+
+div.project-item {
+  font-family: visby sans-serif;
+  margin-left: 20px;
+}
+
+div.project-item h2 {
+  font-size: 21px;
+}
