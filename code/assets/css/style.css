@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.why-code-items {
+    margin-bottom: 20px;
+}
+
+div .size{
+    font-size: 50px;
+}
+
+.why-code-items span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.why-code-items span::after {
+    content: url(../images/sep-line.png);
+    display: block;
+    margin-bottom: 20px;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.why-code-item {
+    display: flex;
+}
+
+div.about {
+    position: relative;
+    margin-left: 10px;
+    
+}
+
+div.about p{
+    margin-bottom: 20px;
+    
+}
+
+div.about a{
+    position: absolute;
+    bottom: 0px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+
+}
+
+
+
+.why-code-item img {
+    width: 200px;
+}
+
+div.why-code-item {
+    margin-bottom: 20px;
+}
+
+
+
+
+@media only screen and (max-width:992px) {
+    .col-6 {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:662px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .why-code-item img {
+        display: none;
+    }
+}
