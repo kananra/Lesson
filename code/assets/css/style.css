@@ -124,9 +124,7 @@ div.about a{
   text-decoration: none;
   color: black;
   font-weight: bolder;
-
 }
-
 
 
 .why-code-item img {
@@ -234,6 +232,26 @@ p.sepline::after{
   margin-top: 100px;
 }
 
+h3.sepline::after{
+  content: url(../images/sep-line.png);
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+
+.column img{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+
 
 @media only screen and (max-width:992px) {
   .col-6 {
@@ -241,6 +259,10 @@ p.sepline::after{
   }
 
   .col-3{
+    width: 100%;
+  }
+  
+  .col-2{
     width: 100%;
   }
 }
@@ -257,4 +279,10 @@ p.sepline::after{
   .col-3{
     width: 100%;
   }
+
+  .col-2{
+    width: 100%;
+  }
+
+ 
 }
